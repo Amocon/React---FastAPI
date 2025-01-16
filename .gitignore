@@ -1,0 +1,124 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+frontend/node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.db
+
+############################
+# Python / FastAPI ignores #
+############################
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+venv/
+env/
+.venv/
+
+# Mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pytest
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+
+# FastAPI/SQLAlchemy related
+*.db
+*.sqlite
+instance/
+# Or if you keep your DB in a specific folder:
+database/test.db
+database/*.db
+
+# Logs
+logs/
+*.log
+
+# If you use Alembic, but don't want to ignore the 'versions/' folder:
+alembic.ini
+alembic/versions/*.pyc
+
+##########################
+# Node / React / Vite    #
+##########################
+
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+.esbuild/
+*.log
+*.cache
+*.temp
+
+# Vite
+.vite/
+vite-env.d.ts
+
+# Yarn / pnpm / npm
+.yarn/
+.pnp.*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+#######################
+# OS / IDE / Editors  #
+#######################
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+*.lnk
+
+# Linux
+*~
+
+# IDEs
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+#######################
+# Misc                #
+#######################
+
+# Environment variables
+.env
+.env.*
